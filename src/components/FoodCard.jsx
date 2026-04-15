@@ -1,6 +1,6 @@
 import {React,useContext,useState}from 'react'
 import styled from 'styled-components'
-import { assets } from '../../../../Food Delivery React/delivery/src/assets/assets'
+import { assets } from '../assets/assets'
 import { StoreContext } from '../context/storecontext';
 
 const FoodCard = ({id,name,desc,price,image}) => {
